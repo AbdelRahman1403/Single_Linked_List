@@ -18,6 +18,8 @@ node *create_single_list(int *value);
 void insert_at_beginning(node **head , int *value);
 void insert_at_tail(node **head , int *value);
 void reverse_single_list(node **head);
+void rotate_list(node **head , int value);
+void find_from_end(node *head , int val);
 
 void display_single_linked_list(node *head);
 #endif // SINLGE_LIN_H
